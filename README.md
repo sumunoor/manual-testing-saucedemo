@@ -105,7 +105,6 @@ User is able to login successfully.
 
 ---
 
-## 📁 Repository Structure
 # Repository Structure - Manual Testing (SauceDemo)
 
 manual-testing-saucedemo/
