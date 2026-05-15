@@ -1,106 +1,153 @@
-# 🧪 Manual Testing Project – SauceDemo
+# 🧪 Manual Testing Project – SauceDemo (QA Portfolio)
 
 ## 📌 Project Overview
-This project is a **manual testing practice project** based on the SauceDemo e-commerce application. The goal of this project is to demonstrate real-world QA manual testing skills including test case design, execution, bug reporting, and test documentation.
+This is a **Manual Testing QA Portfolio Project** based on the SauceDemo web application.  
+It demonstrates real-world Software Quality Assurance (SQA) skills including test planning, test case design, execution, and defect reporting.
 
-The project focuses on validating core functionalities of a web-based shopping application such as login, product selection, cart management, and checkout process.
-
----
-
-## 🚀 Application Under Test (AUT)
-- **Application Name:** SauceDemo
-- **Type:** Web Application (E-commerce Demo)
-- **Purpose:** Practice manual testing for real-world QA scenarios
+The goal is to simulate a complete **Software Testing Life Cycle (STLC)** in a structured and professional way.
 
 ---
 
-## 🎯 Project Objectives
-- Understand end-to-end manual testing process
-- Create structured test cases
-- Execute functional testing
-- Identify and document bugs
-- Prepare test reports and summaries
+## 🌐 Application Under Test (AUT)
+- **Name:** SauceDemo
+- **Type:** Web-based E-commerce Demo Application
+- **URL:** https://www.saucedemo.com/
+- **Purpose:** QA practice for manual testing workflows
 
 ---
 
-## 🧾 Scope of Testing
-
-### ✅ Included Features:
-- Login functionality
-- Product listing page
-- Product sorting/filtering
-- Add to cart functionality
-- Cart management
-- Checkout process
-- Logout functionality
-
-### ❌ Out of Scope:
-- Performance testing
-- Security testing
-- Automation testing (covered in separate project)
+## 🎯 Objectives
+- Perform end-to-end manual testing
+- Validate functional requirements
+- Create professional test documentation
+- Identify and report defects
+- Understand SDLC & STLC processes
 
 ---
 
-## 🧪 Testing Artifacts
+## 🧩 Modules Tested
 
-This project includes the following QA deliverables:
+### 🔐 Login Module
+- Valid login
+- Invalid login
+- Locked-out user validation
+
+### 🛒 Product Module
+- Product listing page validation
+- Sorting (A-Z, Z-A, price low-high)
+- Product details verification
+
+### 🛍 Cart Module
+- Add to cart
+- Remove from cart
+- Cart badge updates
+
+### 💳 Checkout Module
+- User information form validation
+- Order summary verification
+- Complete order flow testing
+
+### 🚪 Logout Module
+- Session logout validation
+
+---
+
+## 📋 Test Artifacts
 
 - Test Scenarios
-- Test Cases
+- Test Cases (Positive & Negative)
+- Bug Reports
 - Test Execution Report
-- Bug/Defect Reports
 - Test Summary Report
 
 ---
 
-## 🐞 Bug Reporting Format
-Each bug is documented with:
-- Bug ID
-- Title
-- Description
-- Steps to Reproduce
-- Expected Result
-- Actual Result
-- Severity & Priority
-- Status
+## 🧪 Sample Test Case
+
+| Test Case ID | Test Scenario | Test Steps | Expected Result | Actual Result | Status |
+|--------------|--------------|------------|----------------|---------------|--------|
+| TC_001 | Valid Login | Enter valid username & password | User should login successfully | As expected | Pass |
+| TC_002 | Invalid Login | Enter wrong credentials | Error message should appear | As expected | Pass |
 
 ---
 
-## 🛠 Tools Used
+## 🐞 Sample Bug Report
+
+**Bug ID:** BUG_001  
+**Title:** Locked-out user is able to login  
+
+**Description:**  
+A locked-out user is able to successfully login, which violates business rules.
+
+**Steps to Reproduce:**
+1. Open SauceDemo
+2. Enter username: `locked_out_user`
+3. Enter password: `secret_sauce`
+4. Click Login
+
+**Expected Result:**  
+User should not be able to login and should see an error message.
+
+**Actual Result:**  
+User is able to login successfully.
+
+**Severity:** High  
+**Priority:** High  
+**Status:** Open
+
+---
+
+## 🛠 Tools & Technologies Used
 - Microsoft Excel (Test Case Design & Reporting)
 - Manual Testing Techniques
-- Browser DevTools
-- GitHub for version control
+- Browser Developer Tools
+- Git & GitHub
 
 ---
 
-## 📂 Project Structure
----manual-testing-saucedemo/
+## 📁 Repository Structure
+manual-testing-saucedemo/
+│
+├── Test Scenarios/
+│ └── test_scenarios.xlsx
 │
 ├── Test Cases/
+│ └── test_cases.xlsx
+│
 ├── Bug Reports/
-├── Test Scenarios/
+│ └── bug_reports.xlsx
+│
+├── Test Execution Report/
+│ └── execution_report.xlsx
+│
 ├── Test Summary Report/
+│ └── summary_report.docx
+│
 └── README.md
 
 
-## 📊 Key Learning Outcomes
-- Writing structured and reusable test cases
-- Real-time bug identification and reporting
-- Understanding SDLC & STLC processes
-- Improving QA documentation skills
+---
+
+## 📈 Key Skills Demonstrated
+- Manual Testing (Black-box Testing)
+- Functional Testing
+- Defect Lifecycle Understanding
+- Test Case Design Techniques
+- QA Documentation Skills
 
 ---
 
-## 👤 Author
+## 👤 About Me
 **Name:** Sumaiya Noor Mona  
 **Role:** QA / SQA Enthusiast  
-**GitHub:** https://github.com/sumunoor
+**Focus:** Manual Testing | API Testing | Automation (Learning Stage)
+
+GitHub: https://github.com/sumunoor
 
 ---
 
-## 📌 Notes
-This project is created for learning and portfolio purposes to demonstrate manual testing skills for QA job applications.
+## 📌 Conclusion
+This project demonstrates my practical understanding of manual testing processes and QA documentation standards. It is part of my journey toward becoming a professional Software Quality Assurance Engineer.
 
 ---
 
