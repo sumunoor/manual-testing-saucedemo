@@ -106,6 +106,8 @@ User is able to login successfully.
 ---
 
 ## 📁 Repository Structure
+# Repository Structure - Manual Testing (SauceDemo)
+
 manual-testing-saucedemo/
 │
 ├── Test Scenarios/
@@ -124,6 +126,7 @@ manual-testing-saucedemo/
 │   └── summary_report.docx
 │
 └── README.md
+
 
 
 ---
