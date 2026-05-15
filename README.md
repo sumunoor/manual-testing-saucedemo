@@ -108,22 +108,16 @@ User is able to login successfully.
 # Repository Structure - Manual Testing (SauceDemo)
 
 manual-testing-saucedemo/
-│
 ├── Test Scenarios/
 │   └── test_scenarios.xlsx
-│
 ├── Test Cases/
 │   └── test_cases.xlsx
-│
 ├── Bug Reports/
 │   └── bug_reports.xlsx
-│
 ├── Test Execution Report/
 │   └── execution_report.xlsx
-│
 ├── Test Summary Report/
 │   └── summary_report.docx
-│
 └── README.md
 
 
